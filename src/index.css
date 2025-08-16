@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px; /* 1rem will equal 12px here */
+  }
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+  margin: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #e8e8e8;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* the slides */
+/* .slick-slide {
+  margin: 0 10px;
+} */
+
+.slick-slider {
+  padding-bottom: 10px;
+}
+.slick-track{
+  display: flex;
+  gap:10px
+}
+/* the parent */
+.slick-list {
+  margin: 0 -5px;
+}
+
+.slick-dots {
+  bottom: -40px;
+  margin : 0
+}
+
+.slick-next {
+  right: 0;
+}
+
+.slick-arrow {
+ display: none !important;
+}
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+  display: none !important;
+}
+
+.leaflet-control-attribution {
+  display: none !important;
+}
+
+.notistack-SnackbarContainer {
+  z-index: 10010 !important;
+}
+.text-transition-fixed {
+  display: flex;
+  align-items: center;
+  white-space:nowrap !important;
+}
+.text-transition-dynamic {
+  display: flex;
+  align-items: center;
+}
