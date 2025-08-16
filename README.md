@@ -1,2 +1,2 @@
 # React-TS-template
-# npx create-react-app init 'project_name' --template https://github.com/jayanta-hub/react-template
+# npm create vite@latest 'project_name' --template https://github.com/jayanta-hub/react-template
